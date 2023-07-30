@@ -1,0 +1,309 @@
+/*main*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+label,
+input,
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.main {
+	max-width: 1400px;
+	height: auto;
+	margin: 0 auto;
+}
+/*header*/
+.head {
+	width: 100%;
+	height: 100px;
+	background-color: #417bd8;
+}
+.head__logo {
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+
+.head__logo h1 {
+	text-align: center;
+	margin-top: 10px;
+}
+.head__nav {
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+
+.head__login {
+	width: 19.5%;
+	height: 100px;
+	float: left;
+}
+
+.head__login ul,
+.head__nav ul {
+	list-style: none;
+	padding-top: 35px;
+}
+
+.head__login li {
+	text-align: center;
+}
+
+.head__nav li {
+	float: left;
+	margin-left: 10px;
+}
+
+.head__login a,
+.head__nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+/*content*/
+
+.content {
+	width: 100%;
+	height: 1500px;
+}
+
+.content__sidebar {
+	width: 30%;
+	height: 100%;
+	border: 1px solid #417bd8;
+	float: left;
+}
+
+.content__block {
+	width: 69.5%;
+	height: 100%;
+	border: 1px solid #417bd8;
+	float: left;
+}
+
+.content__block-title {
+	width: 100%;
+	height: 50px;
+}
+
+.content__block-title h2 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.content__block-item {
+	width: 100%;
+	min-height: 200px;
+}
+
+.content__block-img {
+	width: 20%;
+	height: 150px;
+	float: left;
+	background-color: green;
+	margin: 10px;
+}
+
+.content__block-txt {
+	font-weight: 700;
+	padding: 10px;
+}
+
+/*content-sidebar*/
+
+.content__sidebar h2 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*Страница входа*/
+
+.login {
+	width: 100%;
+	height: 80vh;
+	padding: 50px;
+}
+
+.login-content {
+	width: 60%;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #002451;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+
+.login-content h3 {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+.form-group {
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.control-label {
+	font-size: 16px;
+}
+
+.login_fix {
+	margin-left: 10px;
+}
+
+.login_form-control {
+	width: 200px;
+	height: 35px;
+	border-radius: 5px;
+}
+
+input[type='checkbox'] {
+	margin-left: 30px;
+}
+
+.checkbox span {
+	margin-left: 15px;
+}
+
+::-webkit-input-placeholder {
+	padding-left: 10px;
+}
+::-moz-placeholder {
+	padding-left: 10px;
+} /* Firefox 19+ */
+:-moz-placeholder {
+	padding-left: 10px;
+} /* Firefox 18- */
+:-ms-input-placeholder {
+	padding-left: 10px;
+}
+
+.login-btn {
+	padding: 10px 30px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+/*Личный кабинет*/
+.lk_cabinet {
+	width: 100%;
+	height: 500px;
+	padding: 50px;
+}
+
+.lk_cabinet h2 {
+	text-align: center;
+}
+
+.lk_cabinet_data {
+	width: 60%;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #002451;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+
+.btn-form-group {
+	margin-top: 200px;
+}
+
+.lk-art-info {
+	width: 95%;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid #002451;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+.lk-art-info h3 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*Регистрация пользователя*/
+
+.regusers {
+	width: 100%;
+	height: 500px;
+	padding: 50px;
+}
+
+.regusers-content {
+	width: 60%;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #002451;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+
+.regusers-content h2 {
+	text-align: center;
+}
+
+.reg-form-control {
+	width: 200px;
+	height: 35px;
+}
+
+.pol {
+	width: 200px;
+	height: 35px;
+}
+
+.reg-form-group {
+	margin-top: 50px;
+}
+
+.reg-btn {
+	padding: 10px 30px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+/*Категории*/
+
+.content__sidebar a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+}
+
+.content__sidebar p {
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.content__sidebar h2 {
+	margin-bottom: 20px;
+}
+
+/*footer*/
+.foot {
+	width: 100%;
+	height: 100px;
+	background-color: #002451;
+}
